@@ -17,7 +17,7 @@ const Header = () => {
             ChatApp
         </Link>
 
-        <div>
+        <div className='flex items-center gap-4'>
             <Authenticated>
                 {!isDashboard && (
                     <Link href="/dashboard">
