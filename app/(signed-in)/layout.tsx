@@ -1,9 +1,10 @@
 'use client'
+import UserSyncWrapper from '@/components/UserSyncWrapper'
 import React from 'react'
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>{children}</div>
+    <UserSyncWrapper>{children}</UserSyncWrapper>
     )   
 }
 
