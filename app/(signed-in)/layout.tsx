@@ -6,6 +6,7 @@ import streamClient from '@/lib/stream';
 import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import { AppSidebar } from '@/components/app-sidebar';
 import { Separator } from '@radix-ui/react-separator';
+import "stream-chat-react/dist/css/v2/index.css";
 
 import Link from 'next/link';
 
