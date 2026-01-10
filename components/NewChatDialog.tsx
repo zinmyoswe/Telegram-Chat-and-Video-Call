@@ -142,7 +142,6 @@ export function NewChatDialog({ children }: { children: React.ReactNode }) {
                       value={groupName}
                       onChange={(e) => setGroupName(e.target.value)}
                       className="w-full"
-
                     />
                     <p className="text-xs text-muted-foreground">
                       Leave empty to use default name: &quot;Group Chat (

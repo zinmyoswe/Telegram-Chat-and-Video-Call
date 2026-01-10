@@ -58,7 +58,7 @@ export const searchUsers = query({
             return [];
         }
 
-        const normalizedTerm = searchTerm.toLowerCase;
+        const normalizedTerm = searchTerm.toLowerCase().trim();
 
         //GET all users and filter them by name or email containing the search term
         const allUsers = await ctx.db.query("users").collect();
