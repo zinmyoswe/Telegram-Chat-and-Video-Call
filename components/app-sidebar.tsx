@@ -17,6 +17,7 @@ import { ChannelList } from "stream-chat-react";
 import { ChannelFilters, ChannelSort } from "stream-chat";
 
 import { MessageCircleMore } from 'lucide-react';
+import { NewChatDialog } from "./NewChatDialog";
 
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -54,9 +55,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarContent>
         <SidebarGroup>
           <SidebarMenu className="gap-2">
+            <NewChatDialog>
             <Button className="w-full" variant="outline">
               Start New Chat
             </Button>
+          </NewChatDialog>
 
             {/* Channels List */}
             <ChannelList 
