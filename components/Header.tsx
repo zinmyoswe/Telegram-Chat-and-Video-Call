@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className='flex items-center justify-between px-4 h-15 sm:px-6'>
         <Link href="/" className='font-medium uppercase tracking-widest'>
-            ChatApp
+            Telegramzin
         </Link>
 
         <div className='flex items-center gap-4'>
